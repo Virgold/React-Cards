@@ -11,7 +11,7 @@ export default function Card(props){
                                 <h3 className="card-title">{props.items.name}</h3>
                                 <small className="fw-bold">{props.items.email}</small>
                                 <p className="card-text">{props.items.address}</p>
-                                <a href="#" className="btn btnPrimary rounded-pill px-3 contact">Contact</a>
+                                <a href="/" className="btn btnPrimary rounded-pill px-3 contact">Contact</a>
                             </div>
                         </div>
                     </div>
