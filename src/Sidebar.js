@@ -13,19 +13,19 @@ export default function Sidebar(props){
                 <hr></hr>
             <ul className="nav flex-column mb-auto mt-5">
                 <li className="nav-item" onClick={props.handleClick1}>
-                    <a href="/" className="nav-link text-dark fs-5">
+                    <a href="/#" className="nav-link text-dark fs-5">
                     <span className="iconify icons me-4" data-icon="fontisto:male"></span>
                     Male Folks
                     </a>
                 </li>
                 <li className="nav-item" onClick={props.handleClick2}>
-                    <a href="/" className="nav-link text-dark fs-5">
+                    <a href="/#" className="nav-link text-dark fs-5">
                     <span className="iconify icons me-4" data-icon="et:profile-female"></span>
                     Female Folks
                     </a>
                 </li>
                 <li className="nav-item" onClick={props.handleClick3}>
-                    <a href="/" className="nav-link text-dark fs-5">
+                    <a href='.' className="nav-link text-dark fs-5">
                     <span className="iconify icons me-4" data-icon="akar-icons:people-group"></span>
                     All
                     </a>

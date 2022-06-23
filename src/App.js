@@ -6,17 +6,16 @@ import {useState} from "react";
 
 
 
-
 function App() {
   
 const [card, setCard] = useState(Data)
 
 const maleHandler = () => {
-  const filteredArray = card.filter(item => item.gender === 'male')
+  const filteredArray = Data.filter(item => item.gender === 'male')
   setCard(filteredArray)
 }
 const femaleHandler =() => {
-  const filteredArray = card.filter(item => item.gender === 'female')
+  const filteredArray = Data.filter(item => item.gender === 'female')
   setCard(filteredArray)
 }
 const allHandler =() => {
@@ -44,5 +43,6 @@ const allHandler =() => {
     </div>
   );
 }
+
 
 export default App;
