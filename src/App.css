@@ -34,6 +34,12 @@
   filter: brightness(50%);
 }
 
-/* .contact:hover{
-  filter: brightness(250%)!important;
-} */
+
+
+
+
+@media (min-width: 768px) {
+  .sidebar{
+    height: 100vh;
+  }
+}
